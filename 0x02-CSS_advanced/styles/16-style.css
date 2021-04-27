@@ -92,7 +92,7 @@ a:active {
 
 .container {
 	width: 960px;
-	margin: auto;
+	margin: initial auto;
 }
 
 .card-category {
