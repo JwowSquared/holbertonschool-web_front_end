@@ -1,0 +1,13 @@
+/* basic mixin */
+@mixin left-right($val) {
+        margin-left: $val;
+        margin-right: $val;
+}
+
+body {
+        @include left-right(10px);
+}
+
+div {
+        @include left-right(15px);
+}
